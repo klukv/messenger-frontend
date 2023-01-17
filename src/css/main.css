@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,400;0,900;1,200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+.container {
+  padding: 0 30px;
+}
+body {
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+.input {
+  width: 500px;
+  height: 40px;
+  background-color: #d9d9d9;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.main__inner {
+  display: flex;
+  height: 100vh;
+}
+.main__row {
+  display: flex;
+  flex-direction: column;
+  padding: 53px 50px 100px 20px;
+  border-right: 1px solid #e6ecf0;
+  width: 900px;
+}
+.main__info {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.main__info-title {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 26px;
+  padding-right: 20px;
+  color: #14171a;
+}
+.main__comment-block {
+  display: flex;
+  margin-bottom: 50px;
+}
+.main__comment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main__comment-image {
+  padding-right: 5px;
+}
+.main__input {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  background-color: #e6ecf0;
+  border-radius: 8px;
+}
+.main__input::placeholder {
+  font-size: 20px;
+  color: #7e7e7e;
+}
+.main__comment-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.main__comment-button {
+  padding: 12px 55px;
+  font-size: 15px;
+  background: transparent;
+  background-color: #3ef070;
+  border-radius: 24px;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #3ef070;
+  transition: all 0.3s ease-in-out;
+}
+.main__comment-button:hover{
+  background-color: #fff;
+  color: #3ef070;
+}
+.main__list-comment {
+  display: flex;
+}
+.main__list-avatar {
+  padding-right: 20px;
+}
+.main__messages-link{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+.main__messages-name{
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 15px;
+}

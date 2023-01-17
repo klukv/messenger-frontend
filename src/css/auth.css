@@ -1,0 +1,44 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  max-height: 700px;
+  padding-top: 100px;
+  flex-grow: 1;
+}
+
+.auth__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #3EF070;
+  border-radius: 12px;
+  padding: 50px;
+}
+.auth__title {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.auth-name {
+  display: block;
+  margin: 15px 0px;
+}
+.button-auth {
+  background: transparent;
+  padding: 15px 19px;
+  border: 2px solid #3EF070;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+.register__btn {
+  margin-top: 20px;
+}
+.button-auth:hover {
+  transform: scale(1.15);
+}
+.button__succes {
+  color: #000;
+}
+.signup__btn-link {
+  color: #3EF070;
+}

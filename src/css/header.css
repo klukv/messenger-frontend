@@ -1,0 +1,20 @@
+.header{
+    height: 100vh;
+}
+.header__inner{
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    border-right: 1px solid #E6ECF0;
+}
+
+.header__logo{
+    color: #3EF070;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px 0px;
+}
+.header__home-link{
+    padding-bottom: 30px;
+}
